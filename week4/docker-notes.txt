@@ -1,7 +1,7 @@
-1. What problem does Docker solve?
+1.  What problem does Docker solve?
 
 Docker packages an application together with everything it needs to run, so it behaves the same everywhere — on your laptop, a server, or the cloud.
---------------------------------------------------
+-----------------------------------------------
 
 2. What is the difference between an image and a container?
 
