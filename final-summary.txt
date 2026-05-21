@@ -1,0 +1,39 @@
+1. My public ID: 54.237.189.129 - - Not elastic
+
+2. dannydecoy1/expense-tracker:latest
+
+3. dannydecoy/My-Cloud-journey
+
+4. A typical full deployment process for a web app looks like this:
+
+Write the code locally
+You build your application on your laptop (frontend, backend, database logic).
+Version control with Git
+You push your code to GitHub (or similar) so it’s saved and trackable.
+Build a Docker image (optional but common)
+You package the app and its dependencies into a container so it runs the same everywhere.
+Push image to a registry
+Example: Docker Hub or a private registry.
+Create a server (EC2 or similar)
+You spin up a cloud machine using a provider like Amazon Web Services (EC2 is a common choice).
+Pull and run the app on the server
+The server downloads the image and runs it as a container.
+Expose it to the internet
+You configure ports, security groups, or a reverse proxy so users can access it via a public IP or domain.
+Monitor and maintain
+You check logs, restart containers, and update when needed.
+
+
+
+5. A typical full deployment process for a web app looks like this:
+
+Three things I would learn next
+CI/CD pipelines
+How to automate testing and deployment (GitHub Actions, Jenkins).
+Infrastructure as Code (IaC)
+Tools like Terraform or AWS CloudFormation to create servers automatically.
+Scaling and load balancing
+How to handle many users without your app crashing (Auto Scaling Groups, Load Balancers) 
+
+
+6. Cloud engineering is the practice of designing, building, and managing applications and infrastructure on cloud platforms so they are scalable, reliable, and accessible over the internet. 
